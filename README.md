@@ -6,7 +6,7 @@ This project is a simple exercise to demonstrate feature selection using LASSO f
 
 ## Data Description
 
-**Target Variable**:  
+**Target Variable**:
 
 - Price ($/MWh) - Daily average electricity spot price in New Zealand.
 
