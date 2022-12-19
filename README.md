@@ -2,7 +2,14 @@
 
 ## Aim
 
-This project is a simple exercise to demonstrate feature selection using LASSO for time-series data. I attempt to select relevant features for daily electricity spot prices in New Zealand using several exogeneous variables (see below). I use a time-series cross-validation scheme for robust estimation and to avoid overfitting.
+This project is a simple exercise to demonstrate feature selection using LASSO for time-series data. I attempt to select relevant features for daily electricity spot prices in New Zealand using several exogeneous variables (see data description section below). I use a time-series cross-validation scheme for robust estimation and to avoid overfitting.
+
+## Methodology
+
+- Transforming and scaling data using Yeo-Johnson power transformation.
+- Building feature set using lags of all variables
+- Building a time-series cross-validation scheme for robust LASSO estimation.
+- Identifying and visualizing selected features using LASSO.
 
 ## Data Description
 
